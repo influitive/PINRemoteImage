@@ -6,7 +6,7 @@
 //
 //
 
-#import <PINCache/PINCache.h>
+@import PINCache;
 #import "PINRemoteImageCaching.h"
 
 @interface PINCache (PINRemoteImageCaching) <PINRemoteImageCaching>

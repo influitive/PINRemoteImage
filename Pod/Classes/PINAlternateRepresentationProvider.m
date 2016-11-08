@@ -10,7 +10,7 @@
 
 #import "NSData+ImageDetectors.h"
 #if USE_FLANIMATED_IMAGE
-#import <FLAnimatedImage/FLAnimatedImage.h>
+@import FLAnimatedImage;
 #endif
 
 @implementation PINAlternateRepresentationProvider
